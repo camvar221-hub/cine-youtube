@@ -1,0 +1,16 @@
+{
+  "id": "com.pedro.cineyoutube",
+  "version": "1.0.0",
+  "name": "CINE YOUTUBE",
+  "description": "Películas y videos de YouTube en Stremio",
+  "resources": ["catalog", "stream"],
+  "types": ["movie"],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "cine-youtube",
+      "name": "CINE YOUTUBE"
+    }
+  ],
+  "idPrefixes": ["yt_"]
+}
