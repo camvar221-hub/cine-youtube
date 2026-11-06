@@ -1,0 +1,6 @@
+{
+  "functions": {
+    "index.js": { "includeFiles": "manifest.json" }
+  },
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.js" }]
+}
